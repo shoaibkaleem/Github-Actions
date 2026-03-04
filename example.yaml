@@ -1,0 +1,16 @@
+users:
+ - name: hamza
+   age: 20
+   skills:
+    - Git
+    - system
+ - name: shoaib
+   age: 21
+   skills:
+    - AWS
+    - Github
+
+
+name:
+  - env: system administrator
+    age: 20
