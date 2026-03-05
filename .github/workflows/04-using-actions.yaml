@@ -12,7 +12,7 @@ jobs:
           uses: actions/setup-node@v6
           with:
             node-version: '20.x'
-        - name: Install Dependencies
+        - name: Install Dependencie
           run: npm ci
     
     # 0. Checkout the code from the repository
