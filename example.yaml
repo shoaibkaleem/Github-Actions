@@ -10,7 +10,4 @@ users:
     - AWS
     - Github
 
-
-name:
-  - env: system administrator
-    age: 20
+    
