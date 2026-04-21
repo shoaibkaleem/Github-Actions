@@ -31,6 +31,8 @@ jobs:
     steps:
         - name: Deploying to non-prod environment
           run: echo "Deploying to non-prod environment"
+        - name: Failing deployment
+          run: exit 1
     
  e2e-test:
     runs-on: ubuntu-latest
