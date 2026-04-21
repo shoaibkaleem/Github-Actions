@@ -17,6 +17,7 @@ jobs:
          run: echo "Linting and building project"
  unit-test:
     runs-on: ubuntu-latest
+    continue-on-error: ${{true}}
     steps:
        - name: Running Unit tests
          run: echo "Running test...."
@@ -31,8 +32,6 @@ jobs:
     steps:
         - name: Deploying to non-prod environment
           run: echo "Deploying to non-prod environment"
-        - name: Failing deployment
-          run: exit 1
     
  e2e-test:
     runs-on: ubuntu-latest
