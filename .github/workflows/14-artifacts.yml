@@ -40,7 +40,7 @@ jobs:
             path: 14-artifacts/react-app/build
 
         
-   deploy:
+  deploy:
      runs-on: ubuntu-latest
      steps:
         - name: Download build files
