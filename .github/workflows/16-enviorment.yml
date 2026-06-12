@@ -1,4 +1,5 @@
 name: 16 - Working with Enviorments
+run-name: 16 - -Working with Enviorments | env - ${{ inputs.target-env }}
 
 on: 
     workflow_dispatch:
@@ -18,4 +19,3 @@ jobs:
             - name: Echo vars
               run: | 
                 echo "Env variable: ${{ env.my-env-value}}"
-                
